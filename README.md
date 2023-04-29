@@ -1,5 +1,12 @@
 # Django on Heroku
 
+Mandatory files to Django on Heroky:
+
+Procfile
+runtime.txt
+requirements.txt
+
+
 Installing Python 3.11 using PPA
 
 ```sudo add-apt-repository ppa:deadsnakes/ppa```
