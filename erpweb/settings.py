@@ -26,6 +26,8 @@ SECRET_KEY = 'django-insecure-v4#t$z94dajr=^)lzl95@7oiy2klwwn+rw1$^4q%or#)f*=*x1
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'localhost',
+    'localhost',
     'erpweb.herokuapp.com',
     'dev.erpweb.com.br',
 ]
