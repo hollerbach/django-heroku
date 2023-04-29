@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-v4#t$z94dajr=^)lzl95@7oiy2klwwn+rw1$^4q%or#)f*=*x1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'erpweb.herokuapp.com',
+    'dev.erpweb.com.br',
+]
 
 
 # Application definition
