@@ -1,1 +1,2 @@
-web: python erpweb.py
+release: python manage.py migrate
+web: gunicorn erpweb.wsgi
