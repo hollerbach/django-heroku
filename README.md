@@ -14,25 +14,18 @@ Installing Python 3.11 using PPA
 Then you can install Python 3.11 using the apt-get package manager
 
 ```sudo apt install python3.11```
+```sudo apt install python3.12-venv```
 
-
-python -m pip install Django
+pip install Django
 
 git clone https://github.com/django/django.git
 
 
 ##venv
 
-venv for python version > 3.3
-
-python3.11 -m venv venv
+python3.12 -m venv venv
 
 
-venv for older python version
-
-pip install -U 'virtualenv<20.0'
-
-virtualenv TE-Erp --python=python2.7
 
 
 pip freeze > requirements.txt
